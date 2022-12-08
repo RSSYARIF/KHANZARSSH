@@ -1,18 +1,16 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# Ignore classes
+*.class
 
-# Other files and folders
-.settings/
+# Package Files #
+*.jar
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+### Gradle ###
+.gradle
+**/build/
+/KhanzaCetakAntrianLoket - Copy/nbproject/private/
+/KhanzaCetakAntrianLoket - backup/nbproject/private/
+/KhanzaAntrianLoket2/dist/
+/KhanzaAntrianLoket2_backup/dist/
+/KhanzaAntrianLoket2_backup/nbproject/private/
+/KhanzaCetakAntrianApotek/nbproject/private/
+/KhanzaCetakAntrianApotek/dist/
